@@ -3,11 +3,11 @@
 ## Apakšvirsraksts
 ### utt.
 **teksts boldā**  
-*teksts italic*
+~~*teksts italic*~~
 ### Nodarbības tēma
 paragrāfs 1  
 paragrāfs 2  
-Links uz lapu [GitHub Pages](https://pages.github.com/)  
+Links uz ASCII [Klikšķini šeit](http://www.ecowin.org/aulas/resources/tables/asciitable.jpg)  
 [Prieka seja] ![Smaids](https://user-images.githubusercontent.com/104782480/166294334-199651a3-07b1-4d23-aa12-d7c63f2864bb.jpg)  
 1. Punkts
 2. Punkts 
