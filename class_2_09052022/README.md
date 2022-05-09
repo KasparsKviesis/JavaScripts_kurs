@@ -1,2 +1,3 @@
 ## 2ā lekcija  
-# aptuveni
+# aptuveni  
+###### mazs
