@@ -1,0 +1,2 @@
+## 2ā lekcija  
+# aptuveni
