@@ -1,0 +1,1 @@
+2ā lekcija
