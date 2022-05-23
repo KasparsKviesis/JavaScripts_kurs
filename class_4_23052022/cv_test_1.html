@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          height: 300px;
+        }
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+          }
+        }
+        </style>
+        </head>
+<style>
+    h1 {text-align: center;}
+</style>
+
+<h1>CURRICULUM VITAE</h1>
+<body>
+
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>Vārds, uzvārds</h2>
+        <h2>Dzimšanas laiks, vieta</h2>
+        <h2>Dzīvesvieta</h2>
+        <h>Izglītība</h>
+        
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <p>Kaspars Kviesis</p>
+        <p>05/02/1981, Cēsis</p>
+        <p>Ādažu novads, Kadaga, Zeduļu 24</p>
+        <p>2007 - 2011, Biznesa augstskola Turība, Uzņēmējdarbības vadības fakultāte, bakalaura grāds uzņēmējdarbības vadībā
+            2000 – 2005, Rīgas Tehniskā universitāte, Datoru un Informācijas tehnoloģiju fakultāte, datorsistēmu inženieris
+            1987 – 1999, Cēsu Pilsētas ģimnāzija
+             1994-1999, Cēsu sporta skola
+            1988-1994, Amatas pamatskola
+        </p>
+      </div>
+    </div>
+
+</body>
+</html>
