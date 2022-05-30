@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+   h2 {text-align: center;font-family: Helvetica, sans-serif;}
+   p {text-align: center;}
+   div {text-align: center;}
+   input[type=button], input[type=submit], input[type=reset] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  </style>
+</head>
+<body style="background-color:gray;">
+</body>
+<img src="https://www.tele2.lv/img/cid2019/go3/go3_main2.png" alt="Go3">
+<h2>Forma pieteikumam jaunumu saņemšanai</h2>
+
+<form>
+  <label for="fname">Vārds:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Uzvārds:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <i style="font-size:20px" class="fa">&#xf003;</i>
+  <label for="email">E-pasts:</label><br>
+  <input type="email" id="email" name="email" pattern="[@]"><br><br>
+  <label for="pwd">Parole:</label>
+  <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+</form>
+<form action="/action_page.php">
+    <label for="birthday">Tava dzimšanas diena:</label>
+    <input type="date" id="birthday" name="birthday"><br><br>
+    
+  <input type="submit" value="APSTIPRINĀT">
+  </form>
+
+<p>Paldies, ka aizpildīji formu. Jau drīz tu saņemsi jaunumus no mūsu produkta.</p>
+
+</body>
+</html>
