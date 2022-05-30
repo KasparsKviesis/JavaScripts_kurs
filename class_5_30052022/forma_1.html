@@ -22,20 +22,18 @@
 <img src="https://www.tele2.lv/img/cid2019/go3/go3_main2.png" alt="Go3">
 <h2>Forma pieteikumam jaunumu saņemšanai</h2>
 
-<form>
+<form action="http://www.foo.com" method="GET">
   <label for="fname">Vārds:</label><br>
-  <input type="text" id="fname" name="fname"><br>
+  <input type="text" id="fname" name="fname"><br><br>
   <label for="lname">Uzvārds:</label><br>
-  <input type="text" id="lname" name="lname"><br>
+  <input type="text" id="lname" name="lname"><br><br>
   <i style="font-size:20px" class="fa">&#xf003;</i>
   <label for="email">E-pasts:</label><br>
-  <input type="email" id="email" name="email" pattern="[@]"><br><br>
+  <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><br>
   <label for="pwd">Parole:</label>
   <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
-</form>
-<form action="/action_page.php">
-    <label for="birthday">Tava dzimšanas diena:</label>
-    <input type="date" id="birthday" name="birthday"><br><br>
+  <label for="birthday">Tava dzimšanas diena:</label><br>
+  <input type="date" id="birthday" name="birthday"><br><br>
     
   <input type="submit" value="APSTIPRINĀT">
   </form>
