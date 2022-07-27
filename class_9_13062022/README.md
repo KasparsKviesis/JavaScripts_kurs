@@ -1,0 +1,3 @@
+Ja zemes rādius ir... tad ekvatora garums ir...
+
+Sadaļa Sources zem INSPECT var iezīmēt konkrētu breikpontu konkrētai rindai lai viņu izsekotu. Un darbību pa darbībai var veikt, lai saprastu kur ir problēma kas kā nostrādā.
